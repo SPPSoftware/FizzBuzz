@@ -16,11 +16,11 @@
             Dim result As String = ""
 
             'Tarkista numero
-            If (lower Mod 3 = 0 And lower Mod 5 = 0) Then result = "FizzBuzz"
-
             If (lower Mod 5 = 0) Then result = "Fizz"
 
             If (lower Mod 3 = 0) Then result = "Buzz"
+
+            If (lower Mod 3 = 0 And lower Mod 5 = 0) Then result = "FizzBuzz"
 
             If (result.Length = 0) Then result = lower.ToString
 
