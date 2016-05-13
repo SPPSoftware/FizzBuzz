@@ -28,7 +28,7 @@
             Console.WriteLine(result)
             lower += 1
         Next
-        ()
+
         Console.ReadLine()
     End Sub
 
